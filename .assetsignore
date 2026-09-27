@@ -1,0 +1,5 @@
+# Cloudflare Workers 静态资源排除清单（gitignore 语法）
+# 语法参考 wrangler 的 createAssetsIgnoreFunction：仓库根目录的 .assetsignore
+# 用于阻止 .git 内部对象被当作站点资源上传（否则 pack 文件会超过 25 MiB 上限）
+.git/
+.gitignore

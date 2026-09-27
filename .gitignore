@@ -1,0 +1,10 @@
+# Git 元数据本身绝不能作为站点静态资源上传
+.git/
+
+# Wrangler 自动生成的文件
+.wrangler/
+wrangler.jsonc
+wrangler.toml
+
+# Node
+node_modules/
